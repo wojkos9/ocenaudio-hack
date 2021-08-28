@@ -1,0 +1,4 @@
+#!/bin/sh
+[ -f libhook.so ] && \
+LD_PRELOAD=./libhook.so ocenaudio || \
+echo run make first
